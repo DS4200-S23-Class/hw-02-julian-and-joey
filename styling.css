@@ -1,8 +1,23 @@
 
-title {
+body {
     font-family: Arial;
 }
 
 h1 {
     text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.item {
+    flex-shrink: 1;
 }
