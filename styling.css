@@ -6,6 +6,9 @@ body {
 h1 {
     text-align: center;
 }
+h3 {
+    text-align: center
+}
 
 h2 {
     text-align: left;
@@ -15,9 +18,19 @@ h2 {
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 50%;
 
 }
 
-.item {
-    flex-shrink: 1;
+.icon2:hover {
+    filter: grayscale(50%) sepia(50%)
+}
+
+.icon:hover {
+    stroke: #26a930;
+    stroke-width: 10
+}
+
+.shapes {
+    flex-grow: 1;
 }
